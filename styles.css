@@ -89,6 +89,48 @@ img {
 
 .sign-up-btn > button {
     background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: 500;
     border: none;
     border-radius: 5px;
+}
+
+.second-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.second-content-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.sketch-container {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+}
+
+.sketch-image {
+    height: 200px;
+    width: 200px;
+    border: solid 3px #3882F6;
+}
+
+.sketch-one, .sketch-two, .sketch-three, .sketch-four {
+    display: flex;
+    flex-direction: column;
+    text-wrap: wrap;
+    width: 200px;
+}
+
+.caption {
+    font-size: 18px;
+    color: #1F2937;
+    font-weight: 300;
 }
