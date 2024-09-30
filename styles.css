@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /* Targets all content */
+
 * {
     box-sizing: border-box;
     font-family: Roboto;
@@ -24,7 +25,7 @@
     display: flex;
     flex-direction: row;
     width: 100vw;
-    height: 8vh;
+    height: 12vh;
     justify-content: space-between;
     align-items: center;
 }
@@ -48,6 +49,8 @@
 }
 
 /* Content styles */
+
+/* First Section Styles */
 
 .first-content {
     display: flex;
@@ -93,7 +96,10 @@ img {
     font-weight: 500;
     border: none;
     border-radius: 5px;
+    padding: 4px;
 }
+
+/* Second Section Styles */
 
 .second-content {
     display: flex;
@@ -133,4 +139,87 @@ img {
     font-size: 18px;
     color: #1F2937;
     font-weight: 300;
+}
+
+/* Third Section Styles */
+
+.third-content {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
+    height: 33vh;
+    justify-content: center;
+    gap: 16px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 200;
+    color: #1F2937;
+    text-wrap: wrap;
+    margin: 0 500px;
+}
+
+.author {
+    font-weight: 900;
+}
+
+/* Fourth Section Styles */
+
+.fourth-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 33vh;
+}
+
+.call-to-action {
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 24px;
+    border-radius: 10px;
+    margin: 0 200px;
+    width: auto;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.cta-header {
+    font-weight: 900;
+}
+
+.cta-info {
+    font-weight: 300;
+}
+
+.cta-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 500;
+    border: 1px solid #F9FAF8;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+/* Footer Styles */
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 12vh;
+    justify-content: center;
+    align-items: center;
 }
